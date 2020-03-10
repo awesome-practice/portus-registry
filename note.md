@@ -6,7 +6,7 @@ docker-compose -f docker-compose.yml   up  -d
 docker-compose ps 
 
 ```
-在portus web中配置registry的hostname为REGISTRY_AUTH_TOKEN_SERVICE的值
+在portus web中配置registry的hostname为REGISTRY_AUTH_TOKEN_SERVICE的值,即host.docker.internal
 
 2. docker login registry
 ```shell script
