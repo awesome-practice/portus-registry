@@ -12,8 +12,8 @@ docker-compose ps
 ```shell script
 docker login host.docker.internal
 docker login host.docker.internal:5000
-#username: portus
-#password: portus
+#username/password: 为web上创建的用户和密码
+
 ```
 
 
